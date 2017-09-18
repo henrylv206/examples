@@ -1,0 +1,228 @@
+[
+    {
+        "Id": "d30e91967a0295042959eb9ae3ea6a028d9f033f7e0c4a0c9db05e6fd084c80f",
+        "Created": "2017-09-18T03:14:33.799317831Z",
+        "Path": "/assets/wrapper",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 106503,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2017-09-18T03:14:34.644937522Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "starting",
+                "FailingStreak": 0,
+                "Log": []
+            }
+        },
+        "Image": "sha256:1e47c54043264a8b0def9def779901a8630e76c96038796a4ed4459b2d2035cf",
+        "ResolvConfPath": "/var/lib/docker/containers/d30e91967a0295042959eb9ae3ea6a028d9f033f7e0c4a0c9db05e6fd084c80f/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/d30e91967a0295042959eb9ae3ea6a028d9f033f7e0c4a0c9db05e6fd084c80f/hostname",
+        "HostsPath": "/var/lib/docker/containers/d30e91967a0295042959eb9ae3ea6a028d9f033f7e0c4a0c9db05e6fd084c80f/hosts",
+        "LogPath": "/var/lib/docker/containers/d30e91967a0295042959eb9ae3ea6a028d9f033f7e0c4a0c9db05e6fd084c80f/d30e91967a0295042959eb9ae3ea6a028d9f033f7e0c4a0c9db05e6fd084c80f-json.log",
+        "Name": "/gitlab-test-security",
+        "RestartCount": 0,
+        "Driver": "devicemapper",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {
+                    "max-size": "50m"
+                }
+            },
+            "NetworkMode": "default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "label=disable"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "docker-runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 2048,
+            "Memory": 8589934592,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 100000,
+            "CpuQuota": 200000,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 17179869184,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0
+        },
+        "GraphDriver": {
+            "Name": "devicemapper",
+            "Data": {
+                "DeviceId": "13750",
+                "DeviceName": "docker-253:0-135119358-d2f07e3d44d0f4148907ad56fd424ab5bc0d59b5b46da86e40e7f996bd4653be",
+                "DeviceSize": "10737418240"
+            }
+        },
+        "Mounts": [
+            {
+                "Name": "518816644de7312f01d69fd7f61579645d33b74e04239b680f7e6b0ee9aad32b",
+                "Source": "/var/lib/docker/volumes/518816644de7312f01d69fd7f61579645d33b74e04239b680f7e6b0ee9aad32b/_data",
+                "Destination": "/var/opt/gitlab",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Name": "0f4c96f529367527e4512d2113b6fa61bfb5aecf67c5914e20394a407c0eb813",
+                "Source": "/var/lib/docker/volumes/0f4c96f529367527e4512d2113b6fa61bfb5aecf67c5914e20394a407c0eb813/_data",
+                "Destination": "/etc/gitlab",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Name": "d51db38184642005e852d15544eaaa3b29879c104dd2107a95d19347d7e3004a",
+                "Source": "/var/lib/docker/volumes/d51db38184642005e852d15544eaaa3b29879c104dd2107a95d19347d7e3004a/_data",
+                "Destination": "/var/log/gitlab",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "d30e91967a02",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "22/tcp": {},
+                "443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/gitlab/embedded/bin:/opt/gitlab/bin:/assets:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "TERM=xterm"
+            ],
+            "Cmd": [
+                "/assets/wrapper"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "/opt/gitlab/bin/gitlab-healthcheck --fail"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 30000000000,
+                "Retries": 5
+            },
+            "Image": "gitlab/gitlab-ce:9.5.4-ce.0",
+            "Volumes": {
+                "/etc/gitlab": {},
+                "/var/log/gitlab": {},
+                "/var/opt/gitlab": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "82272aae08eb9dc97daeb89f12c381b8b7945dfa26ac7458f4b13a6367bb1c18",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "22/tcp": null,
+                "443/tcp": null,
+                "80/tcp": null
+            },
+            "SandboxKey": "/var/run/docker/netns/82272aae08eb",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "b9439de3ddbe82d0e8c495c8ba33201c0e7628e1e5c7b508ad86e2371aeed2dd",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "8f27eeb0b24ff541269b9f9d234749cd7239050f1638100dba884f29518c5f52",
+                    "EndpointID": "b9439de3ddbe82d0e8c495c8ba33201c0e7628e1e5c7b508ad86e2371aeed2dd",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02"
+                }
+            }
+        }
+    }
+]
