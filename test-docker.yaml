@@ -1,54 +1,52 @@
-Containers: 42
- Running: 26
+Containers: 35
+ Running: 17
  Paused: 0
- Stopped: 16
-Images: 156
+ Stopped: 18
+Images: 45
 Server Version: 1.12.6
 Storage Driver: devicemapper
- Pool Name: docker--vg-docker--pool
+ Pool Name: docker-thinpool
  Pool Blocksize: 524.3 kB
  Base Device Size: 10.74 GB
  Backing Filesystem: xfs
  Data file: 
  Metadata file: 
- Data Space Used: 24.53 GB
- Data Space Total: 476.9 GB
- Data Space Available: 452.4 GB
- Metadata Space Used: 9.544 MB
- Metadata Space Total: 1.2 GB
- Metadata Space Available: 1.19 GB
- Thin Pool Minimum Free Space: 47.69 GB
+ Data Space Used: 17.91 GB
+ Data Space Total: 42.09 GB
+ Data Space Available: 24.18 GB
+ Metadata Space Used: 5.792 MB
+ Metadata Space Total: 427.8 MB
+ Metadata Space Available: 422 MB
+ Thin Pool Minimum Free Space: 4.208 GB
  Udev Sync Supported: true
  Deferred Removal Enabled: true
- Deferred Deletion Enabled: false
+ Deferred Deletion Enabled: true
  Deferred Deleted Device Count: 0
- Library Version: 1.02.107-RHEL7 (2015-10-14)
-Logging Driver: json-file
+ Library Version: 1.02.135-RHEL7 (2016-11-16)
+Logging Driver: journald
 Cgroup Driver: systemd
 Plugins:
  Volume: local
- Network: host null bridge overlay
+ Network: null host bridge overlay
 Swarm: inactive
-Runtimes: runc docker-runc
+Runtimes: docker-runc runc
 Default Runtime: docker-runc
 Security Options: seccomp selinux
-Kernel Version: 3.10.0-327.el7.x86_64
+Kernel Version: 3.10.0-514.21.1.el7.x86_64
 Operating System: CentOS Linux 7 (Core)
 OSType: linux
 Architecture: x86_64
 Number of Docker Hooks: 2
-CPUs: 48
-Total Memory: 125.5 GiB
-Name: test-node1
-ID: VIKN:3HIB:BQO7:SSSD:R3QU:S3ZP:TQYA:WZIZ:NPW2:BXYZ:TUOW:OJZV
+CPUs: 8
+Total Memory: 15.66 GiB
+Name: ssh.bluecloudtimes.com
+ID: OFHJ:VOGL:42VA:LTGH:6UGG:OOKE:KNPD:7O7K:UZWK:7UWK:7VCJ:LRUI
 Docker Root Dir: /var/lib/docker
 Debug Mode (client): false
 Debug Mode (server): false
+Username: henrylv206
 Registry: https://index.docker.io/v1/
-WARNING: bridge-nf-call-iptables is disabled
-WARNING: bridge-nf-call-ip6tables is disabled
 Insecure Registries:
- hub.hcpaas.com
- bjdhub.haihangyun.com
+ 172.30.0.0/16
  127.0.0.0/8
 Registries: docker.io (secure)
